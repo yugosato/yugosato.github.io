@@ -34,7 +34,7 @@ table.noborder tr {
 }
 
 table.noborder td {
-    padding: 0.2em;
+    padding-right: 2em;
 }
 
 .portrait {
@@ -59,7 +59,6 @@ table.noborder td {
 
 ol {
     padding-left: 1.5em;
-    ;
 }
 
 ul {
@@ -74,3 +73,36 @@ footer {
     padding: 1.0em;
     color: rgba(255, 255, 255, 0.5);
 }
+
+.label{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    background-color: none;
+    background-image: none;
+    /* padding: 0.1833em .533em; */
+    /* border: 1px solid; */
+    text-transform: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    /* border-radius: .26666667rem; */
+  }
+  /* .label.link{
+    border-color: #355DDF;
+    color: #355DDF;
+  } */
+  .label.award{
+    border-color: #B53A38;
+    color: #B53A38;
+  }
+  
+  .label_icon{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .label_contents{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 0.25rem;
+  }

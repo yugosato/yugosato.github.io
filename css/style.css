@@ -14,19 +14,24 @@ hr {
     margin-bottom: 20px;
 }
 
+body {
+    background-color: #FFFFFF;
+    background-image: url(../img/weave.png);
+    background-repeat: repeat;
+    color: #000000;
+    overflow-wrap: break-word;
+}
+
 .container {
     max-width: 1000px;
 }
 
-body {
-    background-color: #000000;
-    background-image: url(../img/weave.png);
-    background-repeat: repeat;
-    color: #000000;
-}
-
 .vspace {
     height: 2em;
+}
+
+table {
+    table-layout:fixed;
 }
 
 table.noborder tr {
@@ -34,12 +39,12 @@ table.noborder tr {
 }
 
 table.noborder td {
-    padding-right: 2em;
+    padding-right: 0.5em;
 }
 
 .portrait {
     border-radius: 50%;
-    width: 80%;
+    width: 70%;
 }
 
 @media screen and (max-width: 576px) {

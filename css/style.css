@@ -18,8 +18,18 @@ body {
     background-color: #FFFFFF;
     background-image: url(../img/weave.png);
     background-repeat: repeat;
-    color: #000000;
     overflow-wrap: break-word;
+    color: #435561;
+    font-size: 0.9rem;
+    font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro',
+                 游ゴシック体, 'Yu Gothic', YuGothic,
+                 メイリオ, Meiryo,
+                 Osaka,
+                 'ＭＳ Ｐゴシック', 'MS PGothic',
+                 sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.01em
 }
 
 .container {
@@ -40,6 +50,7 @@ table.noborder tr {
 
 table.noborder td {
     padding-right: 0.5em;
+    padding-bottom: 0.3em;
 }
 
 .portrait {

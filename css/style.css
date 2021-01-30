@@ -12,10 +12,11 @@ hr {
     border: 1px solid;
     margin-top: 0px;
     margin-bottom: 20px;
+    color: #435561;
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     background-image: url(../img/weave.png);
     background-repeat: repeat;
     overflow-wrap: break-word;
@@ -32,16 +33,13 @@ body {
     letter-spacing: 0.01em
 }
 
-.container {
-    max-width: 1000px;
-}
-
-.vspace {
-    height: 2em;
+footer {
+    padding: 1.0em;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 table {
-    table-layout:fixed;
+    table-layout: fixed;
 }
 
 table.noborder tr {
@@ -49,8 +47,21 @@ table.noborder tr {
 }
 
 table.noborder td {
-    padding-right: 0.5em;
+    padding-right: 0.7em;
     padding-bottom: 0.3em;
+}
+
+main .container {
+    background: #ffffff;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+.container {
+    max-width: 1000px;
+}
+
+.vspace {
+    height: 2em;
 }
 
 .portrait {
@@ -86,15 +97,19 @@ ol {
 
 ul {
     padding-left: 1.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.conf li {
+    padding-bottom: 0.3em;
+}
+.conf ul li:last-child {
+    padding-bottom: 0.0em;
 }
 
 .others {
     text-align: center;
-}
-
-footer {
-    padding: 1.0em;
-    color: rgba(255, 255, 255, 0.5);
 }
 
 .label {
@@ -111,18 +126,18 @@ footer {
     font-size: 0.8rem;
     /* border-radius: .26666667rem; */
   }
-  .label.link {
-    color: #1e90ff;
-  }
-  .label.award {
-    color: #ff0000;
-  }  
-  .label_icon {
-    display: table-cell;
-    vertical-align: middle;
-  }
-  .label_contents {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 0.25rem;
-  }
+.label.link {
+color: #1e90ff;
+}
+.label.award {
+color: #ff0000;
+}  
+.label_icon {
+display: table-cell;
+vertical-align: middle;
+}
+.label_contents {
+display: table-cell;
+vertical-align: middle;
+padding-left: 0.25rem;
+}

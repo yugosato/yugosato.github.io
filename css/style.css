@@ -91,6 +91,8 @@ a:hover {
 
 ol {
     padding-left: 1.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 ul {
@@ -100,9 +102,9 @@ ul {
 }
 
 .conf li {
-    padding-bottom: 0.3em;
+    padding-bottom: 0.3em;    
 }
-.conf ul li:last-child {
+.conf li:last-child {
     padding-bottom: 0.0em;
 }
 

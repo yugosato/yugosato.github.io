@@ -22,13 +22,7 @@ body {
     overflow-wrap: break-word;
     color: #435561;
     font-size: 0.9rem;
-    font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro',
-                 游ゴシック体, 'Yu Gothic', YuGothic,
-                 メイリオ, Meiryo,
-                 Osaka,
-                 'ＭＳ Ｐゴシック', 'MS PGothic',
-                 sans-serif;
-    font-weight: 500;
+    font-family: 'Fira Sans', 'Noto Sans JP', sans-serif;
     font-style: normal;
     letter-spacing: 0.01em
 }
@@ -67,6 +61,10 @@ main .container {
 .portrait {
     border-radius: 50%;
     width: 70%;
+}
+
+.disabled{
+    pointer-events: none;
 }
 
 @media screen and (max-width: 576px) {
@@ -113,7 +111,7 @@ ul {
 }
 
 .label {
-    /* display: inline-block; */
+    display: inline-block;
     vertical-align: middle;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
@@ -125,19 +123,19 @@ ul {
     font-weight: 600;
     font-size: 0.8rem;
     /* border-radius: .26666667rem; */
-  }
+}
 .label.link {
-color: #1e90ff;
+    color: #1e90ff;
 }
 .label.award {
-color: #ff0000;
+    color: #ff0000;
 }  
 .label_icon {
-display: table-cell;
-vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 .label_contents {
-display: table-cell;
-vertical-align: middle;
-padding-left: 0.25rem;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 0.25rem;
 }

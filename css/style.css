@@ -39,10 +39,26 @@ table {
 table.noborder tr {
     vertical-align: top;
 }
-
 table.noborder td {
     padding-right: 0.7em;
     padding-bottom: 0.3em;
+}
+
+table.hborder {
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+table.hborder tr {
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #b9b9b9;
+}
+table.hborder td {
+    padding-right: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+
 }
 
 main .container {
@@ -99,6 +115,7 @@ ul {
     padding-left: 1.5em;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
+    list-style-type: square;
 }
 
 .conf li {

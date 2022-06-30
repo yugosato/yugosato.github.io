@@ -103,6 +103,7 @@ a {
 }
 a:hover {
     color: #1e90ff;
+    opacity: 0.55;
 }
 
 ol {
@@ -124,10 +125,6 @@ li {
 }
 li:last-child {
     padding-bottom: 0.0em;
-}
-
-a:hover {
-    opacity: 0.55;
 }
 
 .others {

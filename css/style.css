@@ -35,7 +35,6 @@ footer {
 table {
     table-layout: fixed;
 }
-
 table.noborder tr {
     vertical-align: top;
 }
@@ -43,7 +42,6 @@ table.noborder td {
     padding-right: 0.7em;
     padding-bottom: 0.3em;
 }
-
 table.hborder {
     table-layout: auto;
     width: 100%;
@@ -61,11 +59,41 @@ table.hborder td {
 
 }
 
+a {
+    color:#1e90ff;
+}
+a:hover {
+    color: #1e90ff;
+    opacity: 0.55;
+}
+
+ol {
+    padding-left: 1.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+ul {
+    padding-left: 1.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    list-style-type: square;
+}
+
+li {
+    padding-bottom: 0.3em;    
+    padding-left: 0.3em;
+}
+li:last-child {
+    padding-bottom: 0.0em;
+}
+
 main .container {
     background: #ffffff;
     padding: 2em;
     margin-bottom: 2em;
 }
+
 .container {
     max-width: 1000px;
 }
@@ -96,35 +124,6 @@ main .container {
 
 .align-middle {
     align-items: center;
-}
-
-a {
-    color:#1e90ff;
-}
-a:hover {
-    color: #1e90ff;
-    opacity: 0.55;
-}
-
-ol {
-    padding-left: 1.5em;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-}
-
-ul {
-    padding-left: 1.5em;
-    margin-top: 0.2em;
-    margin-bottom: 0.2em;
-    list-style-type: square;
-}
-
-li {
-    padding-bottom: 0.3em;    
-    padding-left: 0.3em;
-}
-li:last-child {
-    padding-bottom: 0.0em;
 }
 
 .others {

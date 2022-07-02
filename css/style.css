@@ -147,9 +147,6 @@ main .container {
 .label.link {
     color: #1e90ff;
 }
-.label.link:hover {
-    opacity: 0.55;
-}
 .label.award {
     color: #ff0000;
 }  
@@ -163,35 +160,43 @@ main .container {
     padding-left: 0.25rem;
 }
 
-.icons8-linkedin { 
+.sns-icon.twitter {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDI4OEQxIiBkPSJNNDIsMzdjMCwyLjc2Mi0yLjIzOCw1LTUsNUgxMWMtMi43NjEsMC01LTIuMjM4LTUtNVYxMWMwLTIuNzYyLDIuMjM5LTUsNS01aDI2YzIuNzYyLDAsNSwyLjIzOCw1LDVWMzd6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTEyIDE5SDE3VjM2SDEyek0xNC40ODUgMTdoLS4wMjhDMTIuOTY1IDE3IDEyIDE1Ljg4OCAxMiAxNC40OTkgMTIgMTMuMDggMTIuOTk1IDEyIDE0LjUxNCAxMmMxLjUyMSAwIDIuNDU4IDEuMDggMi40ODYgMi40OTlDMTcgMTUuODg3IDE2LjAzNSAxNyAxNC40ODUgMTd6TTM2IDM2aC01di05LjA5OWMwLTIuMTk4LTEuMjI1LTMuNjk4LTMuMTkyLTMuNjk4LTEuNTAxIDAtMi4zMTMgMS4wMTItMi43MDcgMS45OUMyNC45NTcgMjUuNTQzIDI1IDI2LjUxMSAyNSAyN3Y5aC01VjE5aDV2Mi42MTZDMjUuNzIxIDIwLjUgMjYuODUgMTkgMjkuNzM4IDE5YzMuNTc4IDAgNi4yNjEgMi4yNSA2LjI2MSA3LjI3NEwzNiAzNiAzNiAzNnoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
+    width: 24px;
+    height: 24px;
+    background: url('../img/twitter.png') 50% 50% no-repeat;;
     background-size: 100%;
+    margin: 0.1em;
 }
-.icons8-linkedin:hover {
-    opacity: 0.55;
-}
-
-.icons8-google-scholar { 
+.sns-icon.facebook {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMWU4OGU1IiBkPSJNMjQsNEMxMi45NTQsNCw0LDEyLjk1NCw0LDI0czguOTU0LDIwLDIwLDIwczIwLTguOTU0LDIwLTIwUzM1LjA0Niw0LDI0LDR6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzE1NjVjMCIgZD0iTTM1LDE2LjU5MnYtMy44NzhMMzcsMTFIMjdsMC45MTcsMS44MzNjLTEuMjM2LDAtMi4yNjUsMC0yLjI2NSwwUzE5LjA5NSwxMywxOS4wOTUsMTguNzQ4CWMwLDUuNzUyLDUuNzMyLDUuMDg4LDUuNzMyLDUuMDg4czAsMC44NjUsMCwxLjQ1M2MwLDAuNTk0LDAuNzcsMC4zOTEsMC44NjQsMS41ODNjLTAuMzg4LDAtNy45NjQtMC4yMDgtNy45NjQsNC45OTgJczYuNjc5LDQuOTU5LDYuNjc5LDQuOTU5czcuNzIyLDAuMzY1LDcuNzIyLTYuMTA0YzAtMy44NzEtNC40MDUtNS4xMjEtNC40MDUtNi42ODZjMC0xLjU2MywzLjMxOS0yLjAxMiwzLjMxOS01LjY4NAljMC0wLjgyMy0wLjAyOC0xLjUyNC0wLjE0OS0yLjEyTDM0LDEzLjU3MXYzLjAyYy0wLjU4MSwwLjIwNy0xLDAuNzU2LTEsMS40MDh2NC41YzAsMC44MjksMC42NzIsMS41LDEuNSwxLjVzMS41LTAuNjcxLDEuNS0xLjVWMTgJQzM2LDE3LjM0OCwzNS41ODEsMTYuNzk5LDM1LDE2LjU5MnogTTMwLjA0NywzMS4xNjljMC4xMzEsMi4wMjQtMS45MjksMy44MTEtNC42MDMsMy45OThjLTIuNjcxLDAuMTg4LTQuOTQ2LTEuMjk1LTUuMDc3LTMuMzE2CWMtMC4xMzMtMi4wMTYsMS45MjctMy44MDUsNC42LTMuOTk2QzI3LjY0MSwyNy42NjcsMjkuOTE0LDI5LjE1MiwzMC4wNDcsMzEuMTY5eiBNMjYuMTA5LDIyLjQ1MwljLTEuNTkyLDAuNDUxLTMuMzc1LTEuMDYyLTMuOTgyLTMuMzY3Yy0wLjYwNC0yLjMxMiwwLjE5NS00LjU0MywxLjc4Ni00Ljk5MmMxLjU5My0wLjQ1MywzLjM3NCwxLjA1OSwzLjk4MSwzLjM2NwlDMjguNDk5LDE5Ljc3LDI3LjcwMiwyMi4wMDQsMjYuMTA5LDIyLjQ1M3oiPjwvcGF0aD48cGF0aCBmaWxsPSIjZThlYWY2IiBkPSJNMzQsMTYuNTkyVjEyYzAtMC4wNTEtMC4wMTUtMC4wOTctMC4wMjktMC4xNDNMMzUsMTFIMjFsLTksOGg1LjM4MwljMC4xNzQsNS40NjYsNS43MTUsNC44MzYsNS43MTUsNC44MzZzMCwwLjg2NSwwLDEuNDUzYzAsMC41OTQsMC43NzEsMC4zOTEsMC44NjUsMS41ODNjLTAuMzg4LDAtNy45NjQtMC4yMDgtNy45NjQsNC45OTgJczYuNjc5LDQuOTU5LDYuNjc5LDQuOTU5czcuNzIxLDAuMzY1LDcuNzIxLTYuMTA0YzAtMy44NzEtNC40MDQtNS4xMjEtNC40MDQtNi42ODZjMC0xLjU2MywzLjMxOC0yLjAxMiwzLjMxOC01LjY4NAljMC0wLjk3MS0wLjA0Ny0xLjc2My0wLjIzMi0yLjQyMkwzMywxMi42Njd2My45MjVjLTAuNTgxLDAuMjA3LTEsMC43NTYtMSwxLjQwOHY0LjVjMCwwLjgyOSwwLjY3MiwxLjUsMS41LDEuNXMxLjUtMC42NzEsMS41LTEuNQlWMThDMzUsMTcuMzQ4LDM0LjU4MSwxNi43OTksMzQsMTYuNTkyeiBNMjguMzE5LDMxLjE2OWMwLjEzMSwyLjAyNC0xLjkyOCwzLjgxMS00LjYwMiwzLjk5OGMtMi42NzEsMC4xODgtNC45NDYtMS4yOTUtNS4wNzctMy4zMTYJYy0wLjEzMy0yLjAxNiwxLjkyNy0zLjgwNSw0LjU5OS0zLjk5NkMyNS45MTQsMjcuNjY3LDI4LjE4NywyOS4xNTIsMjguMzE5LDMxLjE2OXogTTI0LjM4LDIyLjQ1MwljLTEuNTkxLDAuNDUxLTMuMzczLTEuMDYyLTMuOTgxLTMuMzY3Yy0wLjYwNC0yLjMxMiwwLjE5NC00LjU0MywxLjc4NS00Ljk5MmMxLjU5My0wLjQ1MywzLjM3NCwxLjA1OSwzLjk4MiwzLjM2NwlDMjYuNzcsMTkuNzcsMjUuOTczLDIyLjAwNCwyNC4zOCwyMi40NTN6Ij48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+    width: 24px;
+    height: 24px;
+    background: url('../img/facebook.png') 50% 50% no-repeat;;
     background-size: 100%;
+    margin: 0.1em;
 }
-.icons8-google-scholar:hover {
-    opacity: 0.55;
-}
-
-.icons8-twitter { 
+.sns-icon.linkedin {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMDNBOUY0IiBkPSJNNDIsMTIuNDI5Yy0xLjMyMywwLjU4Ni0yLjc0NiwwLjk3Ny00LjI0NywxLjE2MmMxLjUyNi0wLjkwNiwyLjctMi4zNTEsMy4yNTEtNC4wNThjLTEuNDI4LDAuODM3LTMuMDEsMS40NTItNC42OTMsMS43NzZDMzQuOTY3LDkuODg0LDMzLjA1LDksMzAuOTI2LDljLTQuMDgsMC03LjM4NywzLjI3OC03LjM4Nyw3LjMyYzAsMC41NzIsMC4wNjcsMS4xMjksMC4xOTMsMS42N2MtNi4xMzgtMC4zMDgtMTEuNTgyLTMuMjI2LTE1LjIyNC03LjY1NGMtMC42NCwxLjA4Mi0xLDIuMzQ5LTEsMy42ODZjMCwyLjU0MSwxLjMwMSw0Ljc3OCwzLjI4NSw2LjA5NmMtMS4yMTEtMC4wMzctMi4zNTEtMC4zNzQtMy4zNDktMC45MTRjMCwwLjAyMiwwLDAuMDU1LDAsMC4wODZjMCwzLjU1MSwyLjU0Nyw2LjUwOCw1LjkyMyw3LjE4MWMtMC42MTcsMC4xNjktMS4yNjksMC4yNjMtMS45NDEsMC4yNjNjLTAuNDc3LDAtMC45NDItMC4wNTQtMS4zOTItMC4xMzVjMC45NCwyLjkwMiwzLjY2Nyw1LjAyMyw2Ljg5OCw1LjA4NmMtMi41MjgsMS45Ni01LjcxMiwzLjEzNC05LjE3NCwzLjEzNGMtMC41OTgsMC0xLjE4My0wLjAzNC0xLjc2MS0wLjEwNEM5LjI2OCwzNi43ODYsMTMuMTUyLDM4LDE3LjMyMSwzOGMxMy41ODUsMCwyMS4wMTctMTEuMTU2LDIxLjAxNy0yMC44MzRjMC0wLjMxNy0wLjAxLTAuNjMzLTAuMDI1LTAuOTQ1QzM5Ljc2MywxNS4xOTcsNDEuMDEzLDEzLjkwNSw0MiwxMi40MjkiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
+    width: 24px;
+    height: 24px;
+    background: url('../img/linkedin.png') 50% 50% no-repeat;;
     background-size: 100%;
+    margin: 0.1em;
 }
-.icons8-twitter:hover {
-    opacity: 0.55;
+.sns-icon.google-scholar {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/google_scholar.png') 50% 50% no-repeat;;
+    background-size: 100%;
+    margin: 0.1em;
+}
+.sns-icon.filmarks {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/filmarks_icon.png') 50% 50% no-repeat;;
+    background-size: 100%;
+    margin: 0.1em;
 }

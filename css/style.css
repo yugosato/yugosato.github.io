@@ -159,6 +159,13 @@ main .container {
     vertical-align: middle;
     padding-left: 0.25rem;
 }
+.label.keyword{
+    background-color: none;
+    border: 1px solid;
+    border-radius: .26666667rem;
+    padding: 0.2033em 0.733em;
+    font-size: 0.5rem;
+  }
 
 .sns-icon.twitter {
     display: inline-block;

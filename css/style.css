@@ -207,3 +207,11 @@ main .container {
     background-size: 100%;
     margin: 0.1em;
 }
+.sns-icon.yukiyama {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../img/yukiyama_icon.png') 50% 50% no-repeat;;
+    background-size: 100%;
+    margin: 0.1em;
+}

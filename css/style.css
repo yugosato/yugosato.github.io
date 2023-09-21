@@ -171,7 +171,8 @@ main .container {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: url('../img/twitter.png') 50% 50% no-repeat;;
+    /* background: url('../img/twitter.png') 50% 50% no-repeat;; */
+    background: url('../img/x.png') 50% 50% no-repeat;;
     background-size: 100%;
     margin: 0.1em;
 }

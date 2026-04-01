@@ -22,6 +22,7 @@ body {
     overflow-wrap: break-word;
     color: #435561;
     font-size: 0.9rem;
+    line-height: 1.6;
     font-family: 'Fira Sans', 'Noto Sans JP', sans-serif;
     font-style: normal;
     letter-spacing: 0.01em
@@ -98,6 +99,28 @@ main .container {
     max-width: 1000px;
 }
 
+.menu-spread {
+    justify-content: space-between;
+}
+
+.icon-cell {
+    text-align: center;
+}
+
+.content-cell {
+    text-align: left;
+}
+
+.org-en {
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+
+.bio-date {
+    width: 17%;
+    white-space: nowrap;
+}
+
 .vspace {
     height: 2em;
 }
@@ -109,12 +132,6 @@ main .container {
 
 .disabled{
     pointer-events: none;
-}
-
-@media screen and (max-width: 576px) {
-    .portrait {
-        width: 50%;
-    }
 }
 
 .teaser {
@@ -135,13 +152,14 @@ main .container {
     vertical-align: middle;
     margin-left: 0.1rem;
     margin-right: 0.1rem;
-    background-color: none;
+    background-color: transparent;
     background-image: none;
     /* padding: 0.1833em .533em; */
     /* border: 1px solid; */
     text-transform: none;
     font-weight: 600;
     font-size: 0.8rem;
+    line-height: 1.4;
     /* border-radius: .26666667rem; */
 }
 .label.link {
@@ -160,12 +178,44 @@ main .container {
     padding-left: 0.25rem;
 }
 .label.keyword{
-    background-color: none;
+    background-color: transparent;
     border: 1px solid;
     border-radius: .26666667rem;
     padding: 0.2033em 0.733em;
     font-size: 0.5rem;
-  }
+}
+
+@media screen and (max-width: 576px) {
+    .portrait {
+        width: 50%;
+    }
+
+    body {
+        font-size: 0.86rem;
+    }
+
+    main .container {
+        padding: 1.25em;
+        margin-bottom: 1.25em;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h6 {
+        font-size: 0.98rem;
+    }
+
+    .bio-date {
+        width: 30%;
+    }
+
+    .label.keyword {
+        font-size: 0.58rem;
+        padding: 0.22em 0.62em;
+    }
+}
 
 .sns-icon.twitter {
     display: inline-block;

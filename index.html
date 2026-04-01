@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Yugo Sato's Web Page">
+    <meta name="description" content="Official webpage of Yugo Sato, R&D Engineer at Sony Group Corporation, featuring profile, research interests in machine learning and computer vision, publications, patents, and recent works.">
     <meta name="author" content="Yugo Sato">
     <meta name="format-detection" content="telephone=no">
 
     <title>佐藤 優伍 / Yugo Sato</title>
+    <link rel="canonical" href="https://yugosato.github.io/">
 
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/scroll.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -32,27 +32,48 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
-    <link rel="icon" type="imageimg/icon/png" sizes="192x192" href="img/icon/android-icon-192x192.png">
-    <link rel="icon" type="imageimg/icon/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-    <link rel="icon" type="imageimg/icon/png" sizes="96x96" href="img/icon/favicon-96x96.png">
-    <link rel="icon" type="imageimg/icon/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
     <link rel="manifest" href="img/icon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
 
     <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="google-site-verification" content="WvSeKQO07pQxDZhTBl1icSJ68NglU49ZecF23auUij8" />
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Yugo Sato",
+            "alternateName": "佐藤 優伍",
+            "url": "https://yugosato.github.io/",
+            "image": "https://yugosato.github.io/img/portrait.png",
+            "jobTitle": "R&D Engineer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Sony Group Corporation"
+            },
+            "knowsAbout": [
+                "Machine Learning",
+                "Computer Vision",
+                "Deep Learning",
+                "Image Recognition"
+            ]
+        }
+    </script>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><b>Yugo Sato</b></a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                <a class="navbar-brand" href="/"><b>Yugo Sato</b></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="menu" class="collapse navbar-collapse" style="justify-content: space-between;">
+                <div id="menu" class="collapse navbar-collapse menu-spread">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="#Profile">Profile</a></li>
                         <li class="nav-item"><a class="nav-link" href="#Works">Works</a></li>
@@ -71,29 +92,29 @@
             <hr>
             <div class="row align-middle">
                 <div class="col-sm-4 mt-0 text-center">
-                    <img class="portrait" src="img/portrait.png" alt="">
+                    <img class="portrait" src="img/portrait.png" alt="Portrait photo of Yugo Sato">
                 </div>
                 <div class="col-sm-8 mt-3 text-left">
                     <h3 class="text-sm-left text-center">佐藤 優伍 / Yugo Sato</h3>
                     <table class="noborder">
                         <tr>
-                            <td align="center"><i class="fa-solid fa-building"></i></td>
-                            <td align="left">
+                            <td class="icon-cell"><i class="fa-solid fa-building"></i></td>
+                            <td class="content-cell">
                                 Vision AI Sec. 2, Vision & Motion AI Lab., AI Technology Div.,<br>
-                                <span style="margin-bottom:0.5em;display:inline-block;">
+                                <span class="org-en">
                                     Advanced Technology, Digital & Technology Platform, Sony Group Corporation
                                 </span><br>
                                 ソニーグループ株式会社 デジタル&テクノロジープラットフォーム<br>
-                                アドバンストテクノロジー AI技術部門 ビジョン&モーションAI開発部 ビジョンAI2課
+                                アドバンストテクノロジー AI技術部門 ビジョン&モーションAI開発部 ビジョンAI 2課
                             </td>
                         </tr>
                         <tr>
-                            <td align="center"><i class="fa-solid user fa-user"></i></td>
-                            <td align="left">R&D Engineer</td>
+                            <td class="icon-cell"><i class="fa-solid user fa-user"></i></td>
+                            <td class="content-cell">R&D Engineer</td>
                         </tr>
                         <tr>
-                            <td align="center"><i class="fa-solid fa-envelope"></i></td>
-                            <td align="left">Yugo.Sato [at] sony.com</td>
+                            <td class="icon-cell"><i class="fa-solid fa-envelope"></i></td>
+                            <td class="content-cell">Yugo.Sato [at] sony.com</td>
                         </tr>
                     </table>
                 </div>
@@ -102,19 +123,20 @@
             <div class="row">
                 <div class="col-sm-6 mt-3 text-left">
                     <h6>Short Bio</h6>
-                    Yugo Sato received the B.E. degree in department of applied physics and the M.E. degree
-                    in department of pure and applied physics from Waseda University, Tokyo, Japan,
-                    in 2016 and 2018 under the supervision of Prof. Shigeo Morishima, respectively.
-                    He joined Sony Corporation, Tokyo, Japan, in 2018, as R&D engineer where he has been engaged
-                    in the research and development of vision system technologies such as image recognition by using deep learning.
+                    Yugo Sato received his B.E. degree in Applied Physics and his M.E. degree
+                    in Pure and Applied Physics from Waseda University, Tokyo, Japan,
+                    in 2016 and 2018, respectively, under the supervision of Prof. Shigeo Morishima.
+                    He joined Sony Corporation in Tokyo, Japan, in 2018 as an R&D engineer,
+                    where he has been engaged in the research and development of vision system technologies,
+                    including deep-learning-based image recognition.
                 </div>
 
                 <div class="col-sm-6 mt-3 text-left">
-                    <h6>Research Interest</h6>
+                    <h6>Research Interests</h6>
                     My research interests lie in <b>Machine Learning</b> and <b>Computer Vision</b>.<br>
-                    In particular, I am interested in <b>Deep Learning</b> technologies (especially, image recognition task).
+                    In particular, I am interested in <b>Deep Learning</b> technologies, especially image recognition tasks.
 
-                    <h6 class="mt-3">Hobby</h6>
+                    <h6 class="mt-3">Hobbies</h6>
                     Workout. Snowboarding. Visiting temples and shrines in Kyoto. Watching movies and anime. Reading comics. Playing video games.
                 </div>
             </div>
@@ -123,7 +145,7 @@
                 <h6>Biography</h6>
                 <table class="hborder mt-3 mb-4">
                     <tr>
-                        <td width=17%>Apr. 2021 -</td>
+                        <td class="bio-date">Apr. 2021 -</td>
                         <td>Sony Group Corporation</td>
                     </tr>
                     <tr>
@@ -164,29 +186,29 @@
             <hr>
             <div class="row align-middle mt-4">
                 <div class="col-sm-6 mt-sm-0 mt-0">
-                    <a target=”_blank” href="https://www.playstation.com/en-us/ps-vr2" rel="noopener noreferrer"><img class="img-thumbnail" src="img/psvr2.png" alt="Link of PS VR2"></a>
+                    <a target="_blank" href="https://www.playstation.com/en-us/ps-vr2" rel="noopener noreferrer"><img class="img-thumbnail" src="img/psvr2.png" alt="Link of PS VR2" loading="lazy"></a>
                 </div>
                 <div class="col-sm-6 mt-sm-0 mt-3">
-                    <a target=”_blank” href="https://tof-ar.com/s/tofaren" rel="noopener noreferrer"><img class="img-thumbnail" src="img/tofar.png" alt="Link of ToF AR"></a>
+                    <a target="_blank" href="https://tof-ar.com/s/tofaren" rel="noopener noreferrer"><img class="img-thumbnail" src="img/tofar.png" alt="Link of ToF AR" loading="lazy"></a>
                 </div>
             </div>
             <div class="row align-middle mt-3">
                 <div class="col-sm-6 mt-sm-0 mt-0">
-                    <a target=”_blank” href="https://electronics.sony.com/bravia-xr" rel="noopener noreferrer"><img class="img-thumbnail" src="img/braviaxr.png" alt="Link of BRAVIA XR"></a>
+                    <a target="_blank" href="https://electronics.sony.com/bravia-xr" rel="noopener noreferrer"><img class="img-thumbnail" src="img/braviaxr.png" alt="Link of BRAVIA XR" loading="lazy"></a>
                 </div>
                 <div class="col-sm-6 mt-sm-0 mt-3">
-                    <a target=”_blank” href="https://www.sony.com/en/SonyInfo/design/stories/futurelabprogram" rel="noopener noreferrer"><img class="img-thumbnail" src="img/future_lab.png" alt="Link of Future Lab Program"></a>
+                    <a target="_blank" href="https://www.sony.com/en/SonyInfo/design/stories/futurelabprogram" rel="noopener noreferrer"><img class="img-thumbnail" src="img/future_lab.png" alt="Link of Future Lab Program" loading="lazy"></a>
                 </div>
             </div>
         </div>
 
         <!-- Projects -->
         <div class="container" id="Projects">
-            <h4 class="text-sm-left text-center">Projects at University</h4>
+            <h4 class="text-sm-left text-center">University Projects</h4>
             <hr>
             <div class="row align-middle mt-4">
                 <div class="col-sm-3 col-12 mt-sm-0 mt-0">
-                    <img class="teaser" src="img/face_retrieval.png" alt="">
+                    <img class="teaser" src="img/face_retrieval.png" alt="Teaser image for Interactive Face Retrieval Framework" loading="lazy">
                 </div>
                 <div class="col-sm-9 col-12 mt-sm-0 mt-3">
                     <h6>Interactive Face Retrieval Framework for Clarifying User's Visual Memory</h6>
@@ -195,7 +217,7 @@
                     <span class="label keyword">Face Retrieval</span>
                     <span class="label keyword">Human-Computer Interaction</span>
                     <span class="label keyword">Deep Learning</span>
-                    <a target=”_blank” href="https://www.jstage.jst.go.jp/article/mta/7/2/7_68/_article/-char/en" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://www.jstage.jst.go.jp/article/mta/7/2/7_68/_article/-char/en" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                         <span class="label_contents">Digital Library</span>
                     </a>
@@ -208,7 +230,7 @@
 
             <div class="row align-middle mt-4">
                 <div class="col-sm-3 col-12 mt-sm-0 mt-0">
-                    <img class="teaser" src="img/drowsiness_detection.png" alt="">
+                    <img class="teaser" src="img/drowsiness_detection.png" alt="Teaser image for drowsiness perception research" loading="lazy">
                 </div>
                 <div class="col-sm-9 col-12 mt-sm-0 mt-3">
                     <h6>Perception of Drowsiness based on Correlation with Facial Image Features</h6>
@@ -217,7 +239,7 @@
                     <span class="label keyword">Drowsiness Detection</span>
                     <span class="label keyword">Facial Expression</span>
                     <span class="label keyword">Machine Learning</span>
-                    <a target=”_blank” href="http://dx.doi.org/10.1145/2931002.2947705" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://dx.doi.org/10.1145/2931002.2947705" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                         <span class="label_contents">Digital Library</span>
                     </a>
@@ -226,7 +248,7 @@
 
             <div class="row align-middle mt-4">
                 <div class="col-sm-3 col-12 mt-sm-0 mt-0">
-                    <img class="teaser" src="img/old_face_gen.png" alt="">
+                    <img class="teaser" src="img/old_face_gen.png" alt="Teaser image for age progression face video synthesis" loading="lazy">
                 </div>
                 <div class="col-sm-9 col-12 mt-sm-0 mt-3">
                     <h6>表情変化データベースを用いた経年変化顔動画合成</h6>
@@ -235,7 +257,7 @@
                     <span class="label keyword">Age Progression</span>
                     <span class="label keyword">Texture Synthesis</span>
                     <span class="label keyword">Image Processing</span>
-                    <a target=”_blank” href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201702235293717421" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201702235293717421" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                         <span class="label_contents">Digital Library</span>
                     </a>
@@ -254,7 +276,7 @@
                         <b>Yugo Sato</b>, Tsukasa Fukusato, and Shigeo Morishima.
                         Interactive Face Retrieval Framework for Clarifying User's Visual Memory.
                         ITE Transactions on Media Technology and Applications. Special Section on Multimedia Retrieval. Journal (Peer-Reviewed). Apr. 2019.
-                        <a target=”_blank” href="https://www.jstage.jst.go.jp/article/mta/7/2/7_68/_article/-char/en" rel="noopener noreferrer" class="label link">
+                        <a target="_blank" href="https://www.jstage.jst.go.jp/article/mta/7/2/7_68/_article/-char/en" rel="noopener noreferrer" class="label link">
                             <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                             <span class="label_contents">Digital Library</span>
                         </a>
@@ -271,7 +293,7 @@
                         <b>Yugo Sato</b>, Tsukasa Fukusato, and Shigeo Morishima.
                         Face Retrieval Framework Relying on User's Visual Memory.
                         ACM International Conference on Multimedia Retrieval (ICMR2018). Regular Paper (Peer-Reviewed). June 2018.
-                        <a target=”_blank” href="https://dl.acm.org/citation.cfm?id=3206038" rel="noopener noreferrer" class="label link">
+                        <a target="_blank" href="https://dl.acm.org/citation.cfm?id=3206038" rel="noopener noreferrer" class="label link">
                             <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                             <span class="label_contents">Digital Library</span>
                         </a>
@@ -280,7 +302,7 @@
                         <b>Yugo Sato</b>, Takuya Kato, Naoki Nozawa, and Shigeo Morishima.
                         Perception of Drowsiness based on Correlation with Facial Image Features.
                         ACM Symposium on Applied Perception (SAP2016). Poster (Peer-Reviewed). July 2016.
-                        <a target=”_blank” href="http://dx.doi.org/10.1145/2931002.2947705" rel="noopener noreferrer" class="label link">
+                        <a target="_blank" href="https://dx.doi.org/10.1145/2931002.2947705" rel="noopener noreferrer" class="label link">
                             <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                             <span class="label_contents">Digital Library</span>
                         </a>
@@ -298,7 +320,7 @@
                         山本晋太郎, サフキン・パーベル, 加藤卓哉, <b>佐藤優伍</b>, 古川翔一, 森島繁生.
                         表情変化データベースを用いた経年変化顔動画合成.
                         Visual Computing / グラフィックスとCAD 合同シンポジウム 2017. Oral (Peer-Reviewed). June 2017.
-                        <a target=”_blank” href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201702235293717421" rel="noopener noreferrer" class="label link">
+                        <a target="_blank" href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201702235293717421" rel="noopener noreferrer" class="label link">
                             <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                             <span class="label_contents">Digital Library</span>
                         </a>
@@ -312,7 +334,7 @@
                         山本晋太郎, サフキン・パーベル, <b>佐藤優伍</b>, 加藤卓哉, 森島繁生.
                         笑顔動画データベースを用いた顔動画の経年変化.
                         The 79th National Convention of IPSJ. Oral. Mar. 2017.
-                        <a target=”_blank” href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=181460" rel="noopener noreferrer" class="label link">
+                        <a target="_blank" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=181460" rel="noopener noreferrer" class="label link">
                             <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                             <span class="label_contents">Digital Library</span>
                         </a>
@@ -321,7 +343,7 @@
                         <b>佐藤優伍</b>, 加藤卓哉, 野澤直樹, 森島繁生.
                         顔の変化による眠そうな顔の認知.
                         21st JFACE Annual Conference (Forum Kaogaku 2016). Oral. Nov. 2016.
-                        <a target=”_blank” href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602282946221279" rel="noopener noreferrer" class="label link">
+                        <a target="_blank" href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602282946221279" rel="noopener noreferrer" class="label link">
                             <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                             <span class="label_contents">Digital Library</span>
                         </a>
@@ -340,11 +362,11 @@
                         <b>佐藤優伍</b>, 野澤直樹, 森島繁生.
                         顔画像特徴と眠気の相関に基づくドライバーの眠気検出.
                         The 78th National Convention of IPSJ. Oral. Mar. 2016.
-                        <a target=”_blank” href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=162981" rel="noopener noreferrer" class="label link">
+                        <a target="_blank" href="https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=162981" rel="noopener noreferrer" class="label link">
                             <span class="label_icon"><i class="fa-solid fa-landmark"></i></span>
                             <span class="label_contents">Digital Library</span>
                         </a>
-                        <a target=”_blank” href="http://www.ipsj.or.jp/award/taikaigakusei.html" rel="noopener noreferrer" class="label award">
+                        <a target="_blank" href="https://www.ipsj.or.jp/award/taikaigakusei.html" rel="noopener noreferrer" class="label award">
                             <span class="label_icon"><i class="fa-solid fa-award"></i></span>
                             <span class="label_contents">Student Encouragement Award</span>
                         </a>
@@ -363,11 +385,11 @@
                     車載センシング技術の開発とADAS、自動運転システムへの応用, 第8章 第2節 顔表情変化に基づくドライバの眠気度合推定と眠気検出技術.<br>
                     <b>佐藤優伍</b>, 森島繁生.<br>
                     Technical Information Institute Corporation. No. 1896, pp. 410-418. ISBN: 978-4-86104-658-2. May 2017.<br>
-                    <a target=”_blank” href="http://www.gijutu.co.jp/doc/b_1896.htm" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://www.gijutu.co.jp/doc/b_1896.htm" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">Link</span>
                     </a>
-                    <a target=”_blank” href="https://www.amazon.co.jp/%E8%BB%8A%E8%BC%89%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%E6%8A%80%E8%A1%93%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8ADAS-%E8%87%AA%E5%8B%95%E9%81%8B%E8%BB%A2%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E5%BF%9C%E7%94%A8-%E5%9F%B7%E7%AD%86%E8%80%85-51%E5%90%8D/dp/4861046580/ref=sr_1_1?ie=UTF8&qid=1496731347&sr=8-1&keywords=%E8%BB%8A%E8%BC%89%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%E6%8A%80%E8%A1%93%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8ADAS%E3%80%81%E8%87%AA%E5%8B%95%E9%81%8B%E8%BB%A2%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E5%BF%9C%E7%94%A8" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://www.amazon.co.jp/%E8%BB%8A%E8%BC%89%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%E6%8A%80%E8%A1%93%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8ADAS-%E8%87%AA%E5%8B%95%E9%81%8B%E8%BB%A2%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E5%BF%9C%E7%94%A8-%E5%9F%B7%E7%AD%86%E8%80%85-51%E5%90%8D/dp/4861046580/ref=sr_1_1?ie=UTF8&qid=1496731347&sr=8-1&keywords=%E8%BB%8A%E8%BC%89%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%E6%8A%80%E8%A1%93%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8ADAS%E3%80%81%E8%87%AA%E5%8B%95%E9%81%8B%E8%BB%A2%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E5%BF%9C%E7%94%A8" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-brands fa-amazon"></i></span>
                         <span class="label_contents">Amazon</span>
                     </a>
@@ -378,7 +400,7 @@
             <ul>
                 <li>
                     The 78th National Convention of IPSJ. Student Encouragement Award. Mar. 2016.
-                    <a target=”_blank” href="http://www.ipsj.or.jp/award/taikaigakusei.html" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://www.ipsj.or.jp/award/taikaigakusei.html" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">Link</span>
                     </a>
@@ -389,77 +411,77 @@
             <ul>
                 <li>
                     情報処理装置、および情報処理方法、並びにプログラム. WO/2025/177811.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2025177811&_cid=JP2-MGA503-29006-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2025177811&_cid=JP2-MGA503-29006-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置および方法、並びにプログラム. WO/2024/157770.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2024157770&_cid=P12-M14J5Y-54110-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2024157770&_cid=P12-M14J5Y-54110-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、情報処理方法、およびプログラム. WO/2024/150697.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2024150697&_cid=P12-M14J73-55151-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2024150697&_cid=P12-M14J73-55151-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、情報処理方法、及び、プログラム. WO/2023/189838.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2023189838&_cid=P12-M14IBB-25359-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2023189838&_cid=P12-M14IBB-25359-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、情報処理方法および情報処理プログラム. WO/2022/118536.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2022118536&_cid=P12-M14IC5-26165-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2022118536&_cid=P12-M14IC5-26165-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、情報処理方法、およびプログラム. WO/2022/009552.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2022009552&_cid=P12-M14ICY-26830-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2022009552&_cid=P12-M14ICY-26830-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、情報処理方法及びプログラム. WO/2020/174808.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020174808&_cid=P12-M14IE9-27815-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020174808&_cid=P12-M14IE9-27815-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、および情報処理方法、並びにプログラム. WO/2020/170851.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020170851&_cid=P12-M14IEW-28368-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020170851&_cid=P12-M14IEW-28368-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、情報処理方法、および記録媒体. WO/2020/166351.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020166351&_cid=P12-M14IFF-29054-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020166351&_cid=P12-M14IFF-29054-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     操作パターンを制御する情報処理装置. WO/2020/162169.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020162169&_cid=P12-M14IG8-29849-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020162169&_cid=P12-M14IG8-29849-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
                 </li>
                 <li>
                     情報処理装置、情報処理方法およびプログラム. WO/2020/110547.
-                    <a target=”_blank” href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020110547&_cid=P12-M14IGT-30480-1" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://patentscope2.wipo.int/search/en/detail.jsf?docId=WO2020110547&_cid=P12-M14IGT-30480-1" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">WIPO</span>
                     </a>
@@ -470,14 +492,14 @@
             <ul>
                 <li>
                     The 19th Meeting on Image Recognition and Understanding (MIRU2016), Young Researcher's Program. Aug. 2016.
-                    <a target=”_blank” href="https://sites.google.com/site/miru2016hamamatsu/%E8%8B%A5%E6%89%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://sites.google.com/site/miru2016hamamatsu/%E8%8B%A5%E6%89%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">Link</span>
                     </a>
                 </li>
                 <li>
                     The 18th Meeting on Image Recognition and Understanding (MIRU2015), Young Researcher's Program. July 2015.
-                    <a target=”_blank” href="https://cvim.ipsj.or.jp//MIRU2015/index.php?id=young" rel="noopener noreferrer" class="label link">
+                    <a target="_blank" href="https://cvim.ipsj.or.jp//MIRU2015/index.php?id=young" rel="noopener noreferrer" class="label link">
                         <span class="label_icon"><i class="fa-solid fa-link"></i></span>
                         <span class="label_contents">Link</span>
                     </a>
